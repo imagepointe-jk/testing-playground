@@ -1,8 +1,11 @@
-nav {
+.nav-container {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+}
+
+nav {
   height: 80px;
   border-bottom: 2px solid lightgray;
   font-size: 2.5rem;
