@@ -6,7 +6,7 @@ const corsHeaders = new Headers({
   "Access-Control-Allow-Headers": "Content-Type, Authorization",
 });
 
-export async function POST(request: NextRequest) {
+export async function POST() {
   return new NextResponse(JSON.stringify({ message: "Success" }), {
     status: 200,
   });
