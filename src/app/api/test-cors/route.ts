@@ -7,7 +7,7 @@ const corsHeaders = new Headers({
 });
 
 export async function POST() {
-  const a: string = 2;
+  const a: string = 3;
   return new NextResponse(JSON.stringify({ message: "Success" }), {
     headers: corsHeaders,
     status: 200,
